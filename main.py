@@ -397,7 +397,7 @@ class Browser(QMainWindow):
 
     def load_stylesheet(self):
         try:
-            with open('chrome_style.css', 'r', encoding='utf-8') as f:
+            with open('style.css', 'r', encoding='utf-8') as f:
                 style = f.read()
                 self.setStyleSheet(style)
         except FileNotFoundError:
