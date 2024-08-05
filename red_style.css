@@ -21,7 +21,7 @@ QTabBar::tab:hover {
 }
 
 QTabWidget::pane {
-    border: 1px solid #d1d1d1;
+    border: 1px solid hsl(0, 39%, 78%);
     top: -1px;
 }
 
@@ -34,22 +34,23 @@ QLineEdit {
 
 QPushButton {
     background-color: #f2f2f2;
-    border: 1px solid #d1d1d1;
+    border: 1px solid #f6e4e4;
     border-radius: 5px;
     padding: 5px 10px;
 }
 
 QPushButton:hover {
-    background-color: #e1e1e1;
+    background-color: #d7c9c9;
 }
 
 QPushButton:pressed {
-    background-color: #d1d1d1;
+    background-color: #cba2a2;
 }
 
 /* 全体のスタイル */
 QWidget {
     font-family: Arial, sans-serif;
     font-size: 12pt;
-    color: #333333;
+    color: #FF7F86;
+    background-color: #FFCFC6;
 }
