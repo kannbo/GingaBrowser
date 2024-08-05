@@ -1,0 +1,55 @@
+/* タブのスタイル */
+QTabBar::tab {
+    background: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    border-bottom: none;
+    margin-right: 2px;
+    border-radius: 5px 5px 0 0;
+}
+
+QTabBar::tab:selected {
+    background: #ffffff;
+    border: 1px solid #d1d1d1;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    color: black;
+}
+
+QTabBar::tab:hover {
+    background: #e1e1e1;
+}
+
+QTabWidget::pane {
+    border: 1px solid #d1d1d1;
+    top: -1px;
+}
+
+/* URLバーとボタンのスタイル */
+QLineEdit {
+    padding: 5px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+}
+
+QPushButton {
+    background-color: #f2f2f2;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    background-color: #e1e1e1;
+}
+
+QPushButton:pressed {
+    background-color: #d1d1d1;
+}
+
+/* 全体のスタイル */
+QWidget {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    color: #333333;
+}
